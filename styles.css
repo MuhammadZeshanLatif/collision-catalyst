@@ -77,7 +77,7 @@ html {
 /* Hero Section */
 .hero-section {
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/hero-auto-shop.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url('images/hero-auto-shop.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -894,7 +894,7 @@ html {
 }
 
 .about-image {
-    height: 365px;
+    height: 560px;
 }
 
 li.nav-item {
@@ -903,14 +903,22 @@ li.nav-item {
 }
 
 .position-relative.growth-image img {
-    height: 625px !important;
+    height: 675px !important;
 }
 
 .position-relative.growth-image-extra {
-    height: 690px !important;
+    height: 725px !important;
 }
 
 a.anchor-class{
     text-decoration: none;
     color: black;
+}
+
+.les-opaq{
+    color: #0000008c;
+    font-size: 3rem;
+}
+.fnt {
+    font-size: 50px;
 }
